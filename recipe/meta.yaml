@@ -1,5 +1,5 @@
 {% set name = "elyra-scala-editor-extension" %}
-{% set version = "3.11.1" %}
+{% set version = "3.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elyra-scala-editor-extension-{{ version }}.tar.gz
-  sha256: fb087a8a1d5cc438cd65b8cd8b7ff7b36b3ceb04ef5bee27289774dc4612ce64
+  sha256: d1d264c470cf1d791722739d05df992677ed1d034fe87fb52aa2016af44ec820
 
 build:
   noarch: python
